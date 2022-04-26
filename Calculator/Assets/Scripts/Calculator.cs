@@ -10,7 +10,23 @@ public InputField textField1;
 public InputField textField2;
 public Text textResult;
 
+public void printNumber (int number)
+{
+ textResult.text += number; 
+}
 
+public void eraser ()
+{
+ textResult.text = "";
+ 
+}
+
+
+public void pi () 
+{
+    
+    textResult.text = "3,1415926535";
+}
 public void Sum () 
     {
     string enteredNumber1 = textField1.text;
